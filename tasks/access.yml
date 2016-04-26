@@ -10,7 +10,7 @@
     group: users
     groups: "{{ username }},sudo,staff"
     uid: 3133700
-    shell: /usr/bin/fish
+    shell: /usr/bin/zsh
 
 - authorized_key:
     user: "{{ username }}"

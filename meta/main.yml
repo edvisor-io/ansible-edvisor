@@ -1,9 +1,7 @@
 ---
-dependencies:
-- role: colstrom.fish
 galaxy_info:
-  author: "Steven Hsu"
-  description: "Installs Steven Hsu onto a system and makes it cozy for him."
+  author: "Edvisor"
+  description: "Installs Edvisor onto a system."
   license: MIT
   platforms:
   - name: Ubuntu

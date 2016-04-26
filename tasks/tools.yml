@@ -6,6 +6,7 @@
   - htop
   - unzip
   - zip
+  - zsh
 - file:
     path: "/home/{{ username }}"
     owner: "{{ username }}"
