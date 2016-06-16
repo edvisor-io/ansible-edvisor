@@ -1,0 +1,7 @@
+- hosts: servers
+  user: ubuntu
+  become: yes
+  tasks:
+     - include: tasks/main.yml username=edvisor
+  roles:
+    - role: colstrom.fast
