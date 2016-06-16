@@ -1,0 +1,8 @@
+- hosts: servers
+  user: edvisor
+  become: yes
+  roles:
+    - role: shsu.zsh
+    - role: shsu.openssh
+      openssh_server: yes
+      openssh_client: yes
